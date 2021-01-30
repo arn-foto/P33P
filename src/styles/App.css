@@ -1,6 +1,6 @@
 .app {
 	height: 100vh;
-	flex: 1;
+	/* flex: 1; */
 	overflow: scroll;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
@@ -11,34 +11,5 @@
 }
 .app__body {
 	display: flex;
-	/* height: 100vh; */
-}
-
-.header__left {
-	/*This part is important for centering*/
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.header__left {
-	width: 55ch;
-	animation: typing 3s steps(22), blink 0.5s step-end infinite alternate;
-	white-space: nowrap;
-	overflow: hidden;
-	border-right: 3px solid;
-	font-family: monospace;
-	font-size: 1em;
-}
-
-@keyframes typing {
-	from {
-		width: 0;
-	}
-}
-
-@keyframes blink {
-	50% {
-		border-color: transparent;
-	}
+	height: 85vh;
 }

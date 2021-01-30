@@ -7,6 +7,7 @@ function Projects() {
 			<div className="projects__body">projects go here</div>
 			<div className="projects__body">projects go here</div>
 			<div className="projects__body">projects go here</div>
+			<div className="projects__body">projects go here</div>
 		</div>
 	);
 }
