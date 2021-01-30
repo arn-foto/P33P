@@ -3,7 +3,7 @@ import "../styles/Header.css";
 import Contact from "../Js/Contact";
 import Selection from "../Js/Selection";
 import { useHistory } from "react-router-dom";
-import { Button } from "@material-ui/core";
+import { IconButton } from "@material-ui/core";
 import FaceIcon from "@material-ui/icons/Face";
 import HomeIcon from "@material-ui/icons/Home";
 import ComputerIcon from "@material-ui/icons/Computer";
@@ -19,21 +19,25 @@ function Header() {
 			</div>
 
 			<div className="header__right">
-				<Button onClick={() => history.push("/")}>
-					<Selection Icon={HomeIcon} title="Home" color="cyan" />
-				</Button>
+				<IconButton onClick={() => history.push("/")}>
+					<Selection Icon={HomeIcon} title="Home" color="whitesmoke" />
+				</IconButton>
 
-				<Button onClick={() => history.push("/about")}>
-					<Selection Icon={FaceIcon} title="About Me" color="cyan" />
-				</Button>
+				<IconButton onClick={() => history.push("/about")}>
+					<Selection Icon={FaceIcon} title="About Me" color="whitesmoke" />
+				</IconButton>
 
-				<Button onClick={() => history.push("/projects")}>
-					<Selection Icon={ComputerIcon} title="Projects" color="cyan" />
-				</Button>
+				<IconButton onClick={() => history.push("/projects")}>
+					<Selection Icon={ComputerIcon} title="Projects" color="whitesmoke" />
+				</IconButton>
 
-				<Button onClick={() => history.push("/contact")}>
-					<Selection Icon={ContactMailIcon} title="Contact" color="cyan" />
-				</Button>
+				<IconButton onClick={() => history.push("/contact")}>
+					<Selection
+						Icon={ContactMailIcon}
+						title="Contact"
+						color="whitesmoke"
+					/>
+				</IconButton>
 			</div>
 		</div>
 	);
