@@ -1,9 +1,12 @@
 import React from "react";
+import "../styles/Projects.css";
 
 function Projects() {
 	return (
 		<div className="projects">
-			<h2>projects go here</h2>
+			<div className="projects__body">projects go here</div>
+			<div className="projects__body">projects go here</div>
+			<div className="projects__body">projects go here</div>
 		</div>
 	);
 }

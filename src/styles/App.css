@@ -1,5 +1,13 @@
 .app {
 	height: 100vh;
+	flex: 1;
+	overflow: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.app::-webkit-scrollbar {
+	display: none;
 }
 .app__body {
 	display: flex;

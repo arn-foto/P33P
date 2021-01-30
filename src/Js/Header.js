@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Header.css";
-import Contact from "../Js/Contact";
 import Selection from "../Js/Selection";
 import { useHistory } from "react-router-dom";
 import { IconButton } from "@material-ui/core";
