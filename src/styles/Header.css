@@ -21,6 +21,13 @@
 	display: flex;
 	padding-left: 20px;
 	align-items: center;
+	width: 55ch;
+	animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+	font-family: monospace;
+	font-size: 1em;
 }
 
 .header__middle {
@@ -38,4 +45,23 @@
 	top: 0;
 	display: flex;
 	background-color: white;
+}
+
+.header__left {
+	/*This part is important for centering*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
 }
