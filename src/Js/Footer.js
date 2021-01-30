@@ -5,14 +5,14 @@ function Footer() {
 	return (
 		<div className="footer">
 			<div className="footer__left">
-				<h2>left side of footer</h2>
+				<h2>Dev Ant</h2>
 			</div>
 			<div className="footer__middle">
 				<h2>middle of the footer</h2>
 			</div>
 			<div className="footer__right">
-				<h2>right side of footer</h2>
-			</div>{" "}
+				<h2>2021</h2>
+			</div>
 		</div>
 	);
 }

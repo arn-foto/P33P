@@ -12,7 +12,12 @@ function App() {
 
 				<div className="app__body">
 					<Switch>
-						<h2>yo</h2>
+						<Route path="/about">
+							<h2>about me</h2>
+						</Route>
+						<Route path="/projects">
+							<h2>projects</h2>
+						</Route>
 					</Switch>
 				</div>
 				<Footer />
