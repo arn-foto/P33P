@@ -7,7 +7,7 @@ function Selection({ Icon, title, color, selected }) {
 		<div
 			className={`selection ${selected && "selection--selected"}`}
 			style={{
-				borderBottom: `3px solid ${color}`,
+				borderBottom: `1px solid ${color}`,
 				color: `${selected && color}`,
 			}}
 		>

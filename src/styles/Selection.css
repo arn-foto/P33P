@@ -1,25 +1,25 @@
 .selection {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
-	border-bottom-width: 2px;
-	padding: 15px;
-	min-width: 200px;
+	border-bottom-width: 5px;
+	padding: 5px;
 	cursor: pointer;
 	border-width: 0 !important;
-	color: grey;
+	color: black;
 }
 
 .selection:hover {
-	background-color: whitesmoke;
-	border-width: 3px !important;
+	background-color: cyan;
 }
 
 .selection--selected {
 	background: whitesmoke;
-	border-width: 3px !important;
+	border-width: 1px !important;
 }
 
 .selection > h4 {
-	font-size: 14px;
-	margin-left: 15px;
+	font-size: 10px;
+	margin-left: 5px;
 }
