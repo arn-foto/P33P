@@ -1,17 +1,22 @@
+import { Button } from "@material-ui/core";
 import React from "react";
 import "../styles/Header.css";
+import FaceIcon from "@material-ui/icons/Face";
 
 function Header() {
 	return (
 		<div className="header">
 			<div className="header__left">
-				<h2>left side of header</h2>
+				<h2>Anthony R. Navarro | Web Developer</h2>
 			</div>
-			<div className="header__middle">
-				<h2>middle of the header</h2>
-			</div>
+			<div className="header__middle"></div>
 			<div className="header__right">
-				<h2>right side of header</h2>
+				<Button>
+					<FaceIcon />
+				</Button>
+				<Button></Button>
+
+				<Button></Button>
 			</div>{" "}
 		</div>
 	);
