@@ -3,7 +3,7 @@ import "../styles/Footer.css";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import { Button } from "@material-ui/core";
+import { IconButton } from "@material-ui/core";
 
 function Footer() {
 	return (
@@ -12,15 +12,15 @@ function Footer() {
 				<h2>Dev Ant</h2>
 			</div>
 			<div className="footer__middle">
-				<Button>
+				<IconButton>
 					<InstagramIcon />
-				</Button>
-				<Button>
+				</IconButton>
+				<IconButton>
 					<GitHubIcon />
-				</Button>
-				<Button>
+				</IconButton>
+				<IconButton>
 					<LinkedInIcon />
-				</Button>
+				</IconButton>
 			</div>
 			<div className="footer__right">
 				<h2>2021</h2>

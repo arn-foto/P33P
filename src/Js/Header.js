@@ -1,9 +1,14 @@
-import { Button } from "@material-ui/core";
 import React from "react";
 import "../styles/Header.css";
+import { useHistory } from "react-router-dom";
+import { IconButton } from "@material-ui/core";
 import FaceIcon from "@material-ui/icons/Face";
+import ComputerIcon from "@material-ui/icons/Computer";
+import ContactMailIcon from "@material-ui/icons/ContactMail";
 
 function Header() {
+	const history = useHistory();
+
 	return (
 		<div className="header">
 			<div className="header__left">
@@ -11,12 +16,16 @@ function Header() {
 			</div>
 			<div className="header__middle"></div>
 			<div className="header__right">
-				<Button>
+				<IconButton onClick={() => history.push("/about")}>
 					<FaceIcon />
-				</Button>
-				<Button></Button>
+				</IconButton>
+				<IconButton onClick={() => history.push("/projects")}>
+					<ComputerIcon />
+				</IconButton>
 
-				<Button></Button>
+				<IconButton>
+					<ContactMailIcon />
+				</IconButton>
 			</div>{" "}
 		</div>
 	);
