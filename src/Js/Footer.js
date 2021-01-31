@@ -11,6 +11,7 @@ function Footer() {
 			<div className="footer__left">
 				<h2>Dev Ant</h2>
 			</div>
+
 			<div className="footer__middle">
 				<IconButton
 					href="https://www.instagram.com/anthony.r.navarro/"

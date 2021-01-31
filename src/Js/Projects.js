@@ -20,7 +20,7 @@ const gridStyle = {
 	textAlign: "center",
 	width: 400,
 	height: 700,
-	margin: 10,
+	margin: 6,
 	paddingTop: 20,
 	backgroundColor: "whitesmoke",
 };
