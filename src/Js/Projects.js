@@ -9,7 +9,6 @@ import Gmail from "../img/gmail-eviltwin.png";
 import Citrics from "../img/Citrics.png";
 import Village from "../img/VillageBook.png";
 import MicroFund from "../img/Microfund.png";
-import Git from "../Js/Git";
 
 const { Meta } = Card;
 
