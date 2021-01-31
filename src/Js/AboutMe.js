@@ -1,8 +1,11 @@
 import React from "react";
+import Git from "./Git";
+import "../styles/AboutMe.css";
 
 function AboutMe() {
 	return (
 		<div className="aboutMe">
+			<Git />
 			<h2>
 				My interest in becoming a software engineer started when I was much
 				younger. I witnessed a friend of mine do some magic with C++ and an I.P.

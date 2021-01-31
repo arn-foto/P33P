@@ -9,17 +9,17 @@ import Gmail from "../img/gmail-eviltwin.png";
 import Citrics from "../img/Citrics.png";
 import Village from "../img/VillageBook.png";
 import MicroFund from "../img/Microfund.png";
+import Git from "../Js/Git";
 
 const { Meta } = Card;
 
 const gridStyle = {
 	display: "flex",
 	flexDirection: "column",
-	alignItems: "center",
 	textAlign: "center",
-	width: 400,
-	margin: 14,
-	padding: 15,
+	width: 450,
+	margin: 10,
+	padding: 10,
 	backgroundColor: "whitesmoke",
 };
 
@@ -53,8 +53,7 @@ function Projects() {
 				<Meta
 					title="Snapchat (clone)"
 					description="JavaScript | React | React-Router | Redux | Css | Firebase"
-					title="Inner Card title"
-					extra={<a href="#">More</a>}
+					extra={<a href="www.google.com">More</a>}
 				/>
 			</Card>
 
