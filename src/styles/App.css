@@ -1,6 +1,6 @@
 .app {
 	height: 100vh;
-	/* flex: 1; */
+	flex: 1;
 	overflow: scroll;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
@@ -11,5 +11,5 @@
 }
 .app__body {
 	display: flex;
-	height: 85vh;
+	/* height: 82vh; */
 }
