@@ -2,12 +2,9 @@ import React from "react";
 import "../styles/App.css";
 import Header from "../Js/Header";
 import Footer from "../Js/Footer";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
-import Contact from "./Contact";
-
-// import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
 	return (

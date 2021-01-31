@@ -2,14 +2,15 @@ import React from "react";
 import "antd/dist/antd.css";
 import "../styles/Projects.css";
 import { Card } from "antd";
-import { GithubOutlined, DesktopOutlined } from "@ant-design/icons";
 import Snap from "../img/snapchat-eviltwin.png";
 import Link from "../img/linkedin-eviltwin.png";
 import Gmail from "../img/gmail-eviltwin.png";
 import Citrics from "../img/Citrics.png";
 import Village from "../img/VillageBook.png";
 import MicroFund from "../img/Microfund.png";
-import { Divider } from "@material-ui/core";
+import { IconButton } from "@material-ui/core";
+import ImportantDevicesIcon from "@material-ui/icons/ImportantDevices";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 const { Meta } = Card;
 
@@ -18,7 +19,7 @@ const gridStyle = {
 	flexDirection: "column",
 	textAlign: "center",
 	width: 450,
-	height: 650,
+	height: 700,
 	margin: 15,
 	padding: 15,
 	backgroundColor: "whitesmoke",
@@ -32,24 +33,49 @@ function Projects() {
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="linkedin-clone" src={Link} />}
-				actions={[
-					<DesktopOutlined key="Deployed site" />,
-					<GithubOutlined key="GitHub" />,
-				]}
 			>
 				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+				<br />
+				<IconButton
+					href="https://linkedin-aa465.web.app/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<ImportantDevicesIcon />
+				</IconButton>
+
+				<IconButton
+					href="https://github.com/arn-foto/linkedin"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<GitHubIcon />
+				</IconButton>
 			</Card>
+
 			<Card
 				title="Snapchat (clone)"
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="Snapchat-clone" src={Snap} />}
-				actions={[
-					<DesktopOutlined key="Deployed site" />,
-					<GithubOutlined key="GitHub" />,
-				]}
 			>
 				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+				<br />
+				<IconButton
+					href="https://snapchat-clone-6c035.web.app/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<ImportantDevicesIcon />
+				</IconButton>
+
+				<IconButton
+					href="https://github.com/arn-foto/snapchat-clone"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<GitHubIcon />
+				</IconButton>
 			</Card>
 
 			<Card
@@ -57,12 +83,24 @@ function Projects() {
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="Snapchat-clone" src={Gmail} />}
-				actions={[
-					<DesktopOutlined key="Deployed site" />,
-					<GithubOutlined key="GitHub" />,
-				]}
 			>
 				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+				<br />
+				<IconButton
+					href="https://clone-e991e.web.app/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<ImportantDevicesIcon />
+				</IconButton>
+
+				<IconButton
+					href="https://github.com/arn-foto/gmail"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<GitHubIcon />
+				</IconButton>
 			</Card>
 
 			<Card
@@ -70,12 +108,24 @@ function Projects() {
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="citrics" src={Citrics} />}
-				actions={[
-					<DesktopOutlined key="Deployed site" />,
-					<GithubOutlined key="GitHub" />,
-				]}
 			>
 				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+				<br />
+				<IconButton
+					href="https://main.d2vgut56c5mq8l.amplifyapp.com/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<ImportantDevicesIcon />
+				</IconButton>
+
+				<IconButton
+					href="https://github.com/arn-foto/citrics-fe-d"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<GitHubIcon />
+				</IconButton>
 			</Card>
 
 			<Card
@@ -83,12 +133,23 @@ function Projects() {
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="Vbb" src={Village} />}
-				actions={[
-					<DesktopOutlined key="Deployed site" />,
-					<GithubOutlined key="GitHub" />,
-				]}
 			>
 				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+				<br />
+				<IconButton
+					href="https://www.villagebookbuilders.org/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<ImportantDevicesIcon />
+				</IconButton>
+				<IconButton
+					href="https://github.com/Lambda-School-Labs/village-book-builders-fe-a"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<GitHubIcon />
+				</IconButton>
 			</Card>
 
 			<Card
@@ -96,12 +157,20 @@ function Projects() {
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="microfund" src={MicroFund} />}
-				actions={[
-					<DesktopOutlined key="Deployed site" />,
-					<GithubOutlined key="GitHub" />,
-				]}
 			>
 				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+				<br />
+				<IconButton href="#" target="_blank" rel="noopener noreferrer">
+					<ImportantDevicesIcon />
+				</IconButton>
+
+				<IconButton
+					href="https://github.com/Lambda-School-Labs/micro-fund-be-b"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<GitHubIcon />
+				</IconButton>
 			</Card>
 		</div>
 	);
