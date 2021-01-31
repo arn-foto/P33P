@@ -13,8 +13,11 @@ import MicroFund from "../img/Microfund.png";
 const { Meta } = Card;
 
 const gridStyle = {
+	display: "flex",
+	flexDirection: "column",
+	alignItems: "center",
 	textAlign: "center",
-	width: 275,
+	width: 400,
 	margin: 14,
 	padding: 15,
 	backgroundColor: "whitesmoke",

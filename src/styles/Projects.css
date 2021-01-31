@@ -1,6 +1,6 @@
 .projects {
-	display: flex !important;
-	flex-direction: row !important;
-	justify-content: center !important;
-	align-items: center !important;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
 }
