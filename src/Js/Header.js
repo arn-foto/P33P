@@ -7,6 +7,7 @@ import FaceIcon from "@material-ui/icons/Face";
 import HomeIcon from "@material-ui/icons/Home";
 import ComputerIcon from "@material-ui/icons/Computer";
 import ContactMailIcon from "@material-ui/icons/ContactMail";
+import Contact from "./Contact";
 
 function Header() {
 	const history = useHistory();

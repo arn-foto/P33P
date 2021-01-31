@@ -9,6 +9,7 @@ import Gmail from "../img/gmail-eviltwin.png";
 import Citrics from "../img/Citrics.png";
 import Village from "../img/VillageBook.png";
 import MicroFund from "../img/Microfund.png";
+import { Divider } from "@material-ui/core";
 
 const { Meta } = Card;
 
@@ -17,8 +18,9 @@ const gridStyle = {
 	flexDirection: "column",
 	textAlign: "center",
 	width: 450,
-	margin: 10,
-	padding: 10,
+	height: 650,
+	margin: 15,
+	padding: 15,
 	backgroundColor: "whitesmoke",
 };
 
@@ -26,6 +28,7 @@ function Projects() {
 	return (
 		<div className="projects">
 			<Card
+				title="Linkedin (clone)"
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="linkedin-clone" src={Link} />}
@@ -34,13 +37,10 @@ function Projects() {
 					<GithubOutlined key="GitHub" />,
 				]}
 			>
-				<Meta
-					title="Linkedin (clone)"
-					description="JavaScript | React | React-Router | Redux | Css | Firebase"
-				/>
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
 			</Card>
-
 			<Card
+				title="Snapchat (clone)"
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="Snapchat-clone" src={Snap} />}
@@ -49,14 +49,11 @@ function Projects() {
 					<GithubOutlined key="GitHub" />,
 				]}
 			>
-				<Meta
-					title="Snapchat (clone)"
-					description="JavaScript | React | React-Router | Redux | Css | Firebase"
-					extra={<a href="www.google.com">More</a>}
-				/>
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
 			</Card>
 
 			<Card
+				title="Gmail (clone)"
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="Snapchat-clone" src={Gmail} />}
@@ -65,13 +62,11 @@ function Projects() {
 					<GithubOutlined key="GitHub" />,
 				]}
 			>
-				<Meta
-					title="Gmail (clone)"
-					description="JavaScript | React | React-Router | Redux | Css | Firebase"
-				/>
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
 			</Card>
 
 			<Card
+				title="Citrics"
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="citrics" src={Citrics} />}
@@ -80,13 +75,11 @@ function Projects() {
 					<GithubOutlined key="GitHub" />,
 				]}
 			>
-				<Meta
-					title="Citrics"
-					description="JavaScript | React | React-Router | Redux | Css | Firebase"
-				/>
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
 			</Card>
 
 			<Card
+				title="Village Book Builders"
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="Vbb" src={Village} />}
@@ -95,13 +88,11 @@ function Projects() {
 					<GithubOutlined key="GitHub" />,
 				]}
 			>
-				<Meta
-					title="Village Book Builders"
-					description="JavaScript | React | React-Router | Redux | Css | Firebase"
-				/>
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
 			</Card>
 
 			<Card
+				title="MicroFund"
 				hoverable={true}
 				style={gridStyle}
 				cover={<img alt="microfund" src={MicroFund} />}
@@ -110,10 +101,7 @@ function Projects() {
 					<GithubOutlined key="GitHub" />,
 				]}
 			>
-				<Meta
-					title="MicroFund"
-					description="JavaScript | React | React-Router | Redux | Css | Firebase"
-				/>
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
 			</Card>
 		</div>
 	);
