@@ -18,10 +18,10 @@ const gridStyle = {
 	display: "flex",
 	flexDirection: "column",
 	textAlign: "center",
-	width: 450,
+	width: 400,
 	height: 700,
-	margin: 15,
-	padding: 15,
+	margin: 10,
+	paddingTop: 30,
 	backgroundColor: "whitesmoke",
 };
 
@@ -51,6 +51,13 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+				<div className="projects__list">
+					<li>- Create an email and send it</li>
+					<li>- Check each individual email</li>
+					<li>- Authorization is handled by Google</li>
+					<li>- User photo is populated by one on their google account</li>
+					<li>- Log out by clicking your avatar</li>
+				</div>
 			</Card>
 
 			<Card
@@ -76,6 +83,13 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+				<div className="projects__list">
+					<li>- Create an email and send it</li>
+					<li>- Check each individual email</li>
+					<li>- Authorization is handled by Google</li>
+					<li>- User photo is populated by one on their google account</li>
+					<li>- Log out by clicking your avatar</li>
+				</div>
 			</Card>
 
 			<Card
@@ -101,6 +115,13 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+				<div className="projects__list">
+					<li>- Create an email and send it</li>
+					<li>- Check each individual email</li>
+					<li>- Authorization is handled by Google</li>
+					<li>- User photo is populated by one on their google account</li>
+					<li>- Log out by clicking your avatar</li>
+				</div>
 			</Card>
 
 			<Card
@@ -126,6 +147,13 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+				<div className="projects__list">
+					<li>- Create an email and send it</li>
+					<li>- Check each individual email</li>
+					<li>- Authorization is handled by Google</li>
+					<li>- User photo is populated by one on their google account</li>
+					<li>- Log out by clicking your avatar</li>
+				</div>
 			</Card>
 
 			<Card
@@ -150,6 +178,13 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+				<div className="projects__list">
+					<li>- Create an email and send it</li>
+					<li>- Check each individual email</li>
+					<li>- Authorization is handled by Google</li>
+					<li>- User photo is populated by one on their google account</li>
+					<li>- Log out by clicking your avatar</li>
+				</div>
 			</Card>
 
 			<Card
@@ -171,6 +206,13 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+				<div className="projects__list">
+					<li>- Create an email and send it</li>
+					<li>- Check each individual email</li>
+					<li>- Authorization is handled by Google</li>
+					<li>- User photo is populated by one on their google account</li>
+					<li>- Log out by clicking your avatar</li>
+				</div>
 			</Card>
 		</div>
 	);

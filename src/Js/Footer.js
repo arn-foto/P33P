@@ -12,13 +12,25 @@ function Footer() {
 				<h2>Dev Ant</h2>
 			</div>
 			<div className="footer__middle">
-				<IconButton>
+				<IconButton
+					href="https://www.instagram.com/anthony.r.navarro/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<InstagramIcon />
 				</IconButton>
-				<IconButton>
+				<IconButton
+					href="https://github.com/arn-foto"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<GitHubIcon />
 				</IconButton>
-				<IconButton>
+				<IconButton
+					href="https://www.linkedin.com/in/anthonyrnavarro/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<LinkedInIcon />
 				</IconButton>
 			</div>
