@@ -6,6 +6,8 @@ import { GithubOutlined, DesktopOutlined } from "@ant-design/icons";
 import Snap from "../img/snapchat-eviltwin.png";
 import Link from "../img/linkedin-eviltwin.png";
 import Gmail from "../img/gmail-eviltwin.png";
+import Citrics from "../img/Citrics.png";
+import Village from "../img/VillageBook.png";
 
 const { Meta } = Card;
 
@@ -62,6 +64,36 @@ function Projects() {
 			>
 				<Meta
 					title="Gmail (clone)"
+					description="JavaScript | React | React-Router | Redux | Css | Firebase"
+				/>
+			</Card>
+
+			<Card
+				hoverable={true}
+				style={gridStyle}
+				cover={<img alt="citrics" src={Citrics} />}
+				actions={[
+					<DesktopOutlined key="Deployed site" />,
+					<GithubOutlined key="GitHub" />,
+				]}
+			>
+				<Meta
+					title="Citrics"
+					description="JavaScript | React | React-Router | Redux | Css | Firebase"
+				/>
+			</Card>
+
+			<Card
+				hoverable={true}
+				style={gridStyle}
+				cover={<img alt="Vbb" src={Village} />}
+				actions={[
+					<DesktopOutlined key="Deployed site" />,
+					<GithubOutlined key="GitHub" />,
+				]}
+			>
+				<Meta
+					title="Village Book Builders"
 					description="JavaScript | React | React-Router | Redux | Css | Firebase"
 				/>
 			</Card>
