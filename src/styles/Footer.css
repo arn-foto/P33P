@@ -27,8 +27,8 @@
 
 .footer__middle {
 	display: flex;
+
 	align-items: center;
-	color: black;
 }
 
 .footer__right {

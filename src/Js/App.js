@@ -11,7 +11,6 @@ function App() {
 		<Router>
 			<div className="app">
 				<Header />
-
 				<div className="app__body">
 					<Switch>
 						<Route path="/about">

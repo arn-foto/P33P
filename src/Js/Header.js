@@ -17,6 +17,8 @@ function Header() {
 				<h2>Anthony R. Navarro | Web Developer</h2>
 			</div>
 
+			<div className="header__middle"></div>
+
 			<div className="header__right">
 				<IconButton onClick={() => history.push("/")}>
 					<Selection Icon={HomeIcon} title="Home" color="whitesmoke" />

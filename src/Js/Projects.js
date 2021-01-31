@@ -21,7 +21,7 @@ const gridStyle = {
 	width: 400,
 	height: 700,
 	margin: 10,
-	paddingTop: 30,
+	paddingTop: 20,
 	backgroundColor: "whitesmoke",
 };
 

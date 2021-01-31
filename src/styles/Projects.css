@@ -3,6 +3,8 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: stretch;
+	padding-top: 20px;
+	border: none;
 }
 
 @media only screen and (max-width: 650px) {
@@ -11,8 +13,8 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-
 		padding: 5px;
+		padding: 10%;
 	}
 }
 
