@@ -8,15 +8,15 @@ import Link from "../img/linkedin-eviltwin.png";
 import Gmail from "../img/gmail-eviltwin.png";
 import Citrics from "../img/Citrics.png";
 import Village from "../img/VillageBook.png";
+import MicroFund from "../img/Microfund.png";
 
 const { Meta } = Card;
 
 const gridStyle = {
 	textAlign: "center",
-	width: 250,
+	width: 275,
 	margin: 14,
 	padding: 15,
-
 	backgroundColor: "whitesmoke",
 };
 
@@ -50,6 +50,8 @@ function Projects() {
 				<Meta
 					title="Snapchat (clone)"
 					description="JavaScript | React | React-Router | Redux | Css | Firebase"
+					title="Inner Card title"
+					extra={<a href="#">More</a>}
 				/>
 			</Card>
 
@@ -94,6 +96,21 @@ function Projects() {
 			>
 				<Meta
 					title="Village Book Builders"
+					description="JavaScript | React | React-Router | Redux | Css | Firebase"
+				/>
+			</Card>
+
+			<Card
+				hoverable={true}
+				style={gridStyle}
+				cover={<img alt="microfund" src={MicroFund} />}
+				actions={[
+					<DesktopOutlined key="Deployed site" />,
+					<GithubOutlined key="GitHub" />,
+				]}
+			>
+				<Meta
+					title="MicroFund"
 					description="JavaScript | React | React-Router | Redux | Css | Firebase"
 				/>
 			</Card>

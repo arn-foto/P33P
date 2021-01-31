@@ -11,5 +11,6 @@
 }
 .app__body {
 	display: flex;
+	margin-top: 90px;
 	/* height: 82vh; */
 }
