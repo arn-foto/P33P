@@ -28,6 +28,9 @@
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 }
 
-.Git {
-	box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.24);
+.aboutMe__archive {
+	display: flex;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
 }
