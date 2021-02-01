@@ -5,7 +5,7 @@
 	font-family: monospace;
 	padding: 10px;
 	margin: 10px;
-	/* box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24); */
+	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 	font-size: 1.5em;
 }
 
@@ -16,10 +16,18 @@
 .aboutMe__top {
 	margin: 10px;
 	padding: 10px;
-	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+	/* box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24); */
 }
 .aboutMe__bottom {
 	padding: 10px;
 	margin: 10px;
+	/* box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24); */
+}
+
+.aboutMe__git {
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+}
+
+.Git {
+	box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.24);
 }

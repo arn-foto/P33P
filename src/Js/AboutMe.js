@@ -15,7 +15,10 @@ function AboutMe() {
 			</div>
 
 			<br />
-			<Git />
+			<div className="aboutMe__git">
+				<Git />
+			</div>
+
 			<div className="aboutMe__bottom">
 				I am a Front-end developer with an obsession for all things tech. As
 				much as I consider myself a software engineer, I mostly assume the role
