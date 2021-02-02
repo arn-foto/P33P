@@ -2,6 +2,7 @@ import React from "react";
 import Git from "./Git";
 import "../styles/AboutMe.css";
 import Stack from "../img/fullstack.png";
+import { Card } from "@material-ui/core";
 
 function AboutMe() {
 	return (
@@ -15,21 +16,27 @@ function AboutMe() {
 			</div>
 
 			<br />
+
 			<div className="aboutMe__git">
 				<Git />
 			</div>
-			<div className="aboutMe__archive">
-				<h4>Archived Websites</h4>
-				<a
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://dev-ant.netlify.app/"
-				>
-					First site
-				</a>
-			</div>
 
-			<div className="aboutMe__bottom"></div>
+			<br />
+
+			<div className="aboutMe__bottom">
+				<Card>
+					<div className="aboutMe__archive">
+						<h4>Archived Websites</h4>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://dev-ant.netlify.app/"
+						>
+							First site
+						</a>
+					</div>
+				</Card>
+			</div>
 		</div>
 	);
 }
