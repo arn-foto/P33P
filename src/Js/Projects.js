@@ -1,7 +1,7 @@
 import React from "react";
 import "antd/dist/antd.css";
 import "../styles/Projects.css";
-import { Card } from "antd";
+import { Card, Divider } from "antd";
 import Snap from "../img/snapchat-eviltwin.png";
 import Link from "../img/linkedin-eviltwin.png";
 import Gmail from "../img/gmail-eviltwin.png";
@@ -19,7 +19,7 @@ const gridStyle = {
 	flexDirection: "column",
 	textAlign: "center",
 	width: 400,
-	height: 700,
+	height: 800,
 	margin: 7,
 	paddingTop: 10,
 	paddingBottom: 10,
@@ -35,8 +35,6 @@ function Projects() {
 				style={gridStyle}
 				cover={<img alt="linkedin-clone" src={Link} />}
 			>
-				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
-				<br />
 				<IconButton
 					href="https://linkedin-aa465.web.app/"
 					target="_blank"
@@ -52,6 +50,15 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+				<br />
+
+				<h4>
+					An informational web application used to compare comprehensive city
+					data within the United States.
+				</h4>
+				<Divider />
 
 				<div className="projects__list">
 					<h3>In this demo a user can:</h3>
@@ -70,8 +77,6 @@ function Projects() {
 				style={gridStyle}
 				cover={<img alt="Snapchat-clone" src={Snap} />}
 			>
-				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
-				<br />
 				<IconButton
 					href="https://snapchat-clone-6c035.web.app/"
 					target="_blank"
@@ -87,6 +92,16 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+				<br />
+
+				<h4>
+					An informational web application used to compare comprehensive city
+					data within the United States.
+				</h4>
+				<Divider />
+
 				<div className="projects__list">
 					<h3>In this demo a user can:</h3>
 					<li>
@@ -140,8 +155,9 @@ function Projects() {
 				style={gridStyle}
 				cover={<img alt="citrics" src={Citrics} />}
 			>
-				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Java | PostgreSQL" />
 				<br />
+
 				<IconButton
 					href="https://main.d2vgut56c5mq8l.amplifyapp.com/"
 					target="_blank"
@@ -157,7 +173,14 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+
+				<h4>
+					An informational web application used to compare comprehensive city
+					data within the United States.
+				</h4>
+				<Divider />
 				<div className="projects__list">
+					<h3>In this demo a user can:</h3>
 					<li>- Create an email and send it</li>
 					<li>- Check each individual email</li>
 					<li>- Authorization is handled by Google</li>
@@ -174,6 +197,11 @@ function Projects() {
 			>
 				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
 				<br />
+				<br />
+				<h4>
+					A web application created to connect organizations to entrepreneurs
+					who seek funding for their business ventures.
+				</h4>
 				<IconButton
 					href="https://www.villagebookbuilders.org/"
 					target="_blank"
@@ -205,6 +233,13 @@ function Projects() {
 			>
 				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
 				<br />
+				<br />
+				<h4>
+					<h4>
+						A web application created to connect organizations to entrepreneurs
+						who seek funding for their business ventures.
+					</h4>
+				</h4>
 				<IconButton href="#" target="_blank" rel="noopener noreferrer">
 					<ImportantDevicesIcon />
 				</IconButton>
