@@ -180,17 +180,16 @@ function Projects() {
 				<br />
 
 				<h4>
-					An informational web application used to compare comprehensive city
-					data within the United States.
+					An informational web application constructed to compare comprehensive
+					city data within the United States.
 				</h4>
-				<br />
+
 				<Divider />
 
 				<div className="projects__list">
 					<h3>In this demo a user can:</h3>
 					<li>- Search comprehensive city data within the U.S.</li>
 					<li>- Compare data side by side between cities</li>
-					<li>- Implementation of </li>
 				</div>
 			</Card>
 
@@ -214,24 +213,21 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
-				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+				<Meta description="JavaScript | React | React-Router | Redux | Css | AWS" />
 
 				<br />
 
 				<h4>
-					A web application created to connect organizations to entrepreneurs
-					who seek funding for their business ventures.
+					A a non-profit organization empowering villages around the world to
+					end the cycle of poverty through education.
 				</h4>
 
 				<Divider />
 
 				<div className="projects__list">
 					<h3>In this demo a user can:</h3>
-					<li>- Create an email and send it</li>
-					<li>- Check each individual email</li>
-					<li>- Authorization is handled by Google</li>
-					<li>- User photo is populated by one on their google account</li>
-					<li>- Log out by clicking your avatar</li>
+					<li>- Submit application to become a village mentor.</li>
+					<li>- Donate to villages in need.</li>
 				</div>
 			</Card>
 
@@ -252,7 +248,7 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
-				<Meta description="JavaScript | React | React-Query | Css | Java" />
+				<Meta description="JavaScript | React | React-Query | Css | Java | SpringBoot | AWS" />
 				<br />
 
 				<h4>
