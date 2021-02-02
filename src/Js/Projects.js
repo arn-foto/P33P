@@ -55,8 +55,8 @@ function Projects() {
 				<br />
 
 				<h4>
-					An informational web application used to compare comprehensive city
-					data within the United States.
+					This clone is created to replicate Linkedin & demonstrate the
+					functionality of the technologies listed above.
 				</h4>
 				<Divider />
 
@@ -97,20 +97,17 @@ function Projects() {
 				<br />
 
 				<h4>
-					An informational web application used to compare comprehensive city
-					data within the United States.
+					This clone is created to mimic Snapchat & demonstrate the
+					functionality of the technologies listed above.
 				</h4>
 				<Divider />
 
 				<div className="projects__list">
 					<h3>In this demo a user can:</h3>
-					<li>
-						- Sign in with your Google account & generates users photo and name.
-					</li>
-					<li>- Sign out by clicking on your avatar.</li>
+					<li>- Sign in with Google authorization.</li>
 					<li>- Take & Post photographs.</li>
-					<li>- Photographs delete after 10seconds.</li>
-					<li>- Photographs delete if clicked on during 10seconds.</li>
+					<li>- Photo delete after 10seconds.</li>
+					<li>- Photo delete if clicked on during 10seconds.</li>
 					<li>- Log out by clicking your avatar</li>
 				</div>
 			</Card>
@@ -121,8 +118,6 @@ function Projects() {
 				style={gridStyle}
 				cover={<img alt="Snapchat-clone" src={Gmail} />}
 			>
-				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
-				<br />
 				<IconButton
 					href="https://clone-e991e.web.app/"
 					target="_blank"
@@ -138,12 +133,22 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+				<br />
+
+				<h4>
+					This clone is created to replicate Gmail & demonstrate the
+					functionality of the technologies listed above.
+				</h4>
+
+				<Divider />
 				<div className="projects__list">
 					<h3>In this demo a user can:</h3>
+					<li>- Google authorization</li>
+					<li>(disabled auth feature for all users)</li>
 					<li>- Compose an email and send it</li>
 					<li>- Check each individual email</li>
-					<li>- Google authorization</li>
-					<li>(disabled this feature so anyone can try out demo)</li>
 					<li>- User photo is populated by google account</li>
 					<li>- Log out by clicking your photo</li>
 				</div>
@@ -155,9 +160,6 @@ function Projects() {
 				style={gridStyle}
 				cover={<img alt="citrics" src={Citrics} />}
 			>
-				<Meta description="JavaScript | React | React-Router | Redux | Css | Java | PostgreSQL" />
-				<br />
-
 				<IconButton
 					href="https://main.d2vgut56c5mq8l.amplifyapp.com/"
 					target="_blank"
@@ -174,18 +176,21 @@ function Projects() {
 					<GitHubIcon />
 				</IconButton>
 
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Java | PostgreSQL" />
+				<br />
+
 				<h4>
 					An informational web application used to compare comprehensive city
 					data within the United States.
 				</h4>
+				<br />
 				<Divider />
+
 				<div className="projects__list">
 					<h3>In this demo a user can:</h3>
-					<li>- Create an email and send it</li>
-					<li>- Check each individual email</li>
-					<li>- Authorization is handled by Google</li>
-					<li>- User photo is populated by one on their google account</li>
-					<li>- Log out by clicking your avatar</li>
+					<li>- Search comprehensive city data within the U.S.</li>
+					<li>- Compare data side by side between cities</li>
+					<li>- Implementation of </li>
 				</div>
 			</Card>
 
@@ -195,13 +200,6 @@ function Projects() {
 				style={gridStyle}
 				cover={<img alt="Vbb" src={Village} />}
 			>
-				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
-				<br />
-				<br />
-				<h4>
-					A web application created to connect organizations to entrepreneurs
-					who seek funding for their business ventures.
-				</h4>
 				<IconButton
 					href="https://www.villagebookbuilders.org/"
 					target="_blank"
@@ -216,7 +214,19 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
+
+				<br />
+
+				<h4>
+					A web application created to connect organizations to entrepreneurs
+					who seek funding for their business ventures.
+				</h4>
+
+				<Divider />
+
 				<div className="projects__list">
+					<h3>In this demo a user can:</h3>
 					<li>- Create an email and send it</li>
 					<li>- Check each individual email</li>
 					<li>- Authorization is handled by Google</li>
@@ -231,15 +241,6 @@ function Projects() {
 				style={gridStyle}
 				cover={<img alt="microfund" src={MicroFund} />}
 			>
-				<Meta description="JavaScript | React | React-Router | Redux | Css | Firebase" />
-				<br />
-				<br />
-				<h4>
-					<h4>
-						A web application created to connect organizations to entrepreneurs
-						who seek funding for their business ventures.
-					</h4>
-				</h4>
 				<IconButton href="#" target="_blank" rel="noopener noreferrer">
 					<ImportantDevicesIcon />
 				</IconButton>
@@ -251,12 +252,20 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+				<Meta description="JavaScript | React | React-Query | Css | Java" />
+				<br />
+
+				<h4>
+					A web application created to connect organizations to entrepreneurs
+					who seek funding for their business ventures.
+				</h4>
+
+				<Divider />
 				<div className="projects__list">
-					<li>- Create an email and send it </li>
-					<li>- Check each individual email</li>
-					<li>- Google authorization</li>
-					<li>- User photo is populated by google account</li>
-					<li>- Log out by clicking your photo</li>
+					<h3>In this demo a user can:</h3>
+					<li>- Register an organization to provide funding to applicants.</li>
+					<li>- Submit an application to apply for funding.</li>
+					<li>- View current orangizations that provide funding.</li>
 				</div>
 			</Card>
 		</div>
