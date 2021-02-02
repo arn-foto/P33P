@@ -20,8 +20,9 @@ const gridStyle = {
 	textAlign: "center",
 	width: 400,
 	height: 700,
-	margin: 6,
-	paddingTop: 20,
+	margin: 7,
+	paddingTop: 10,
+	paddingBottom: 10,
 	backgroundColor: "whitesmoke",
 };
 
@@ -51,12 +52,15 @@ function Projects() {
 				>
 					<GitHubIcon />
 				</IconButton>
+
 				<div className="projects__list">
-					<li>- Create an email and send it</li>
-					<li>- Check each individual email</li>
-					<li>- Authorization is handled by Google</li>
-					<li>- User photo is populated by one on their google account</li>
-					<li>- Log out by clicking your avatar</li>
+					<h3>In this demo a user can:</h3>
+					<li>- Create an account</li>
+					<li>- Log in with created account</li>
+					<li>- Add an avatar(must be valid link).</li>
+					<li>- Submit & view messages from other users.</li>
+					<li>- user data is saved and displayed.</li>
+					<li>- Log out by clicking avatar.</li>
 				</div>
 			</Card>
 
@@ -84,10 +88,14 @@ function Projects() {
 					<GitHubIcon />
 				</IconButton>
 				<div className="projects__list">
-					<li>- Create an email and send it</li>
-					<li>- Check each individual email</li>
-					<li>- Authorization is handled by Google</li>
-					<li>- User photo is populated by one on their google account</li>
+					<h3>In this demo a user can:</h3>
+					<li>
+						- Sign in with your Google account & generates users photo and name.
+					</li>
+					<li>- Sign out by clicking on your avatar.</li>
+					<li>- Take & Post photographs.</li>
+					<li>- Photographs delete after 10seconds.</li>
+					<li>- Photographs delete if clicked on during 10seconds.</li>
 					<li>- Log out by clicking your avatar</li>
 				</div>
 			</Card>
@@ -116,11 +124,13 @@ function Projects() {
 					<GitHubIcon />
 				</IconButton>
 				<div className="projects__list">
-					<li>- Create an email and send it</li>
+					<h3>In this demo a user can:</h3>
+					<li>- Compose an email and send it</li>
 					<li>- Check each individual email</li>
-					<li>- Authorization is handled by Google</li>
-					<li>- User photo is populated by one on their google account</li>
-					<li>- Log out by clicking your avatar</li>
+					<li>- Google authorization</li>
+					<li>(disabled this feature so anyone can try out demo)</li>
+					<li>- User photo is populated by google account</li>
+					<li>- Log out by clicking your photo</li>
 				</div>
 			</Card>
 
@@ -207,11 +217,11 @@ function Projects() {
 					<GitHubIcon />
 				</IconButton>
 				<div className="projects__list">
-					<li>- Create an email and send it</li>
+					<li>- Create an email and send it </li>
 					<li>- Check each individual email</li>
-					<li>- Authorization is handled by Google</li>
-					<li>- User photo is populated by one on their google account</li>
-					<li>- Log out by clicking your avatar</li>
+					<li>- Google authorization</li>
+					<li>- User photo is populated by google account</li>
+					<li>- Log out by clicking your photo</li>
 				</div>
 			</Card>
 		</div>

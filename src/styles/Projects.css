@@ -1,24 +1,46 @@
 .projects {
 	display: flex;
-	flex-direction: row;
+	/* flex-direction: row; */
 	justify-content: center;
 	align-items: stretch;
-	padding-top: 2%;
-	padding-bottom: 5%;
+	padding-top: 30px;
+	padding-bottom: 50px;
 	border: none;
 }
 
 @media only screen and (max-width: 650px) {
 	.projects {
-		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
 		padding: 5px;
-		padding: 10%;
+		margin-bottom: 10px;
+		text-align: center;
 	}
 }
 
 .projects__list {
 	text-align: left;
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+@media only screen and (max-width: 650px) {
+	.projects__list {
+		margin-left: 15px;
+	}
+}
+
+.ant-card-body {
+	padding: 1px;
+	margin: 0;
+}
+
+/* .ant-card {
+	border: 0.5px solid black;
+} */
+
+.MuiSvgIcon-root {
+	color: black;
 }
