@@ -17,10 +17,6 @@ function AboutMe() {
 
 			<br />
 
-			<div className="aboutMe__git">
-				<Git />
-			</div>
-
 			<br />
 
 			<div className="aboutMe__bottom">

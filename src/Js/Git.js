@@ -10,7 +10,7 @@ function Git() {
 			>
 				<img
 					src="https://ghchart.rshah.org/219134/arn-foto"
-					alt="My GitHub chart"
+					alt="GitHub chart"
 				/>
 			</a>
 		</div>
