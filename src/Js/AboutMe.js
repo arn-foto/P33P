@@ -2,7 +2,6 @@ import React from "react";
 import Git from "./Git";
 import "../styles/AboutMe.css";
 import Stack from "../img/fullstack.png";
-import { Card } from "@material-ui/core";
 
 function AboutMe() {
 	return (
@@ -17,7 +16,7 @@ function AboutMe() {
 			</div>
 			<Git />
 			<div className="aboutMe__middle">
-				JavaScript | React/Redux | Java | SpringBoot | PostgreSQL | MySQL |
+				JavaScript | React | Redux | Java | SpringBoot | PostgreSQL | MySQL |
 				RESTful API | Python | HTML | CSS | Git | Agile
 			</div>
 

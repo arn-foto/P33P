@@ -11,6 +11,7 @@ function Git() {
 				<img
 					src="https://ghchart.rshah.org/219134/arn-foto"
 					alt="GitHub chart"
+					width="100%"
 				/>
 			</a>
 		</div>
