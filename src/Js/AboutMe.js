@@ -22,7 +22,7 @@ function AboutMe() {
 
 			<div className="aboutMe__bottom">
 				<div className="aboutMe__archive">
-					<h4>Archived Portfolio's</h4>
+					<h4>Archived Portfolio(s)</h4>
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
