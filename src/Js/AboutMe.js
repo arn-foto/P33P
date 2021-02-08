@@ -21,7 +21,8 @@ function AboutMe() {
 			<div className="aboutMe__middle">
 				<div className="aboutMe__git">
 					<Git />
-					<p>me me meeee</p>
+					JavaScript | React/Redux | Java | SpringBoot | PostgreSQL | MySQL |
+					RESTful API | Python | HTML | CSS | Git | Agile
 				</div>
 			</div>
 			<br />
