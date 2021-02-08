@@ -15,17 +15,11 @@ function AboutMe() {
 				and ways to learn it, break it, & fix it. Then apply it to everything I
 				do.
 			</div>
-
-			<br />
-
+			<Git />
 			<div className="aboutMe__middle">
-				<div className="aboutMe__git">
-					<Git />
-					JavaScript | React/Redux | Java | SpringBoot | PostgreSQL | MySQL |
-					RESTful API | Python | HTML | CSS | Git | Agile
-				</div>
+				JavaScript | React/Redux | Java | SpringBoot | PostgreSQL | MySQL |
+				RESTful API | Python | HTML | CSS | Git | Agile
 			</div>
-			<br />
 
 			<div className="aboutMe__bottom">
 				<div className="aboutMe__archive">
