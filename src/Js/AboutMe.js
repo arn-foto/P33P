@@ -8,12 +8,13 @@ function AboutMe() {
 		<div className="aboutMe">
 			<img src={Stack} width="30%" />
 			<div className="aboutMe__top">
-				What can I say....I'm a nerd with an obsession for all things tech. As
+				What can I say...I'm a nerd with an obsession for all things tech. As
 				much as I consider myself a software engineer, I mostly assume the role
 				of student on a regualr basis, constantly searching for new technology
 				and ways to learn it, break it, & fix it. Then apply it to everything I
 				do.
 			</div>
+			<br></br>
 			<Git />
 			<div className="aboutMe__middle">
 				JavaScript | React | Redux | Java | SpringBoot | PostgreSQL | MySQL |
