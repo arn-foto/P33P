@@ -21,23 +21,23 @@ function AboutMe() {
 			<div className="aboutMe__middle">
 				<div className="aboutMe__git">
 					<Git />
-					<Card>
-						<div className="aboutMe__archive">
-							<h4>Archived Portfolio's</h4>
-							<a
-								target="_blank"
-								rel="noopener noreferrer"
-								href="https://dev-ant.netlify.app/"
-							>
-								Site #1
-							</a>
-						</div>
-					</Card>
+					<p>me me meeee</p>
 				</div>
 			</div>
 			<br />
 
-			<div className="aboutMe__bottom"></div>
+			<div className="aboutMe__bottom">
+				<div className="aboutMe__archive">
+					<h4>Archived Portfolio's</h4>
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://dev-ant.netlify.app/"
+					>
+						Site #1
+					</a>
+				</div>
+			</div>
 		</div>
 	);
 }

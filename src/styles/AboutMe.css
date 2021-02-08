@@ -14,16 +14,18 @@
 }
 
 .aboutMe__top {
+	display: flex;
+	background-color: whitesmoke;
 	margin: 10px;
 	padding: 10px;
-	/* box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24); */
+	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 }
 
 .aboutMe__middle {
 	display: flex;
 	flex-direction: column-reverse;
 	align-items: center;
-	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+	/* box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24); */
 }
 
 .aboutMe__bottom {
@@ -32,14 +34,18 @@
 }
 
 .aboutMe__git {
-	border: 1px solid whitesmoke;
-	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	/* border: 1px solid whitesmoke; */
+	/* border-radius: 5px; */
 	/* box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.24); */
 }
 
 .aboutMe__archive {
 	display: flex;
 	flex-direction: column;
+	background-color: whitesmoke;
 	padding: 10px;
 	margin: 10px;
+	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 }
