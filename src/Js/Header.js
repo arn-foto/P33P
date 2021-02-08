@@ -20,7 +20,7 @@ function Header() {
 			<div className="header__middle"></div>
 
 			<div className="header__right">
-				<IconButton onClick={() => history.push("/")}>
+				<IconButton onClick={() => history.push("/home")}>
 					<Selection Icon={HomeIcon} title="Home" color="whitesmoke" />
 				</IconButton>
 
