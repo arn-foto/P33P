@@ -36,7 +36,7 @@ function Footer() {
 				</IconButton>
 			</div>
 			<div className="footer__right">
-				<h2>2021</h2>
+				<h2>2022</h2>
 			</div>
 		</div>
 	);
